@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "304789523096",
+    "firebase_url": "https://heavy-motors.firebaseio.com",
+    "project_id": "heavy-motors",
+    "storage_bucket": "heavy-motors.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304789523096:android:80c4535099a88632329eed",
+        "android_client_info": {
+          "package_name": "br.com.heavymotors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304789523096-vnbjfe8hq6c268pmu5mrc0danbaj39h3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.heavymotors",
+            "certificate_hash": "103c016c4548390b41212d8827a4d110f52f6e3b"
+          }
+        },
+        {
+          "client_id": "304789523096-snj8lg2svct2hmh6gabcg6qdil6lof25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3USxfWyCngr1t1mlN-HISWfrMOO6Z_1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304789523096-snj8lg2svct2hmh6gabcg6qdil6lof25.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "304789523096-cdoomabhni5ep65vsm6h5o662jtg9fl7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.heavymotorsapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304789523096:android:d249affc6b816b90329eed",
+        "android_client_info": {
+          "package_name": "br.com.heavymotorsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304789523096-enakvvtj72hifkq38dpe3rhkhfhlci0v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.heavymotorsapp",
+            "certificate_hash": "103c016c4548390b41212d8827a4d110f52f6e3b"
+          }
+        },
+        {
+          "client_id": "304789523096-snj8lg2svct2hmh6gabcg6qdil6lof25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3USxfWyCngr1t1mlN-HISWfrMOO6Z_1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304789523096-snj8lg2svct2hmh6gabcg6qdil6lof25.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "304789523096-cdoomabhni5ep65vsm6h5o662jtg9fl7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.heavymotorsapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

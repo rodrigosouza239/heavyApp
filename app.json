@@ -1,0 +1,79 @@
+{
+  "expo": {
+    "name": "Heavy Motors",
+    "slug": "hm-app",
+    "privacy": "public",
+    "platforms": ["ios", "android"],
+    "version": "1.0.28",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "hmapp",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash-screen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 3000,
+      "checkAutomatically": "ON_LOAD"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "requireFullScreen": true,
+      "usesAppleSignIn": true,
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "supportsTablet": false,
+      "bundleIdentifier": "br.com.heavymotors",
+      "buildNumber": "8",
+      "userInterfaceStyle": "light",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "useNextNotificationsApi": true,
+      "userInterfaceStyle": "light",
+      "versionCode": 24,
+      "package": "br.com.heavymotors",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "hmapp",
+              "host": "br.com.heavymotors",
+              "pathPrefix": "/ga0RGNYHvNM5d0SLGQfpQWAPGJ8="
+            }
+          ],
+          "category": ["BROWSABLE", "DEFAULT"]
+        }
+      ]
+    },
+    "notification": {
+      "icon": "./assets/images/icon.png"
+    },
+    "facebookScheme": "fb760369391186113",
+    "facebookAppId": "760369391186113",
+    "facebookDisplayName": "Heavy Motors",
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "expo.ts",
+        "expo.tsx",
+        "expo.js",
+        "expo.jsx",
+        "ts",
+        "tsx",
+        "js",
+        "jsx",
+        "json",
+        "wasm",
+        "svg"
+      ]
+    }
+  }
+}
